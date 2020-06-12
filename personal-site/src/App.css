@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.Header-Selfie {
+  border-radius: 50%;
+  padding: 20px;
+  max-width: 175px;
+}
 
 .App-logo {
   height: 40vmin;
