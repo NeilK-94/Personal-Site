@@ -5,10 +5,13 @@
 /* Header Styling */
 .Header {
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   min-height: 100%;
   position: fixed;
+  top: 0;
+  z-index: -99;
 }
 .Header-Selfie {
   border-radius: 50%;
@@ -39,10 +42,25 @@
   font-weight: 500;
 }
 
-
-
 /* Projects Styling */
+.Projects {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #3e1c8d;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 100vh;
+  position: relative;
+  z-index: 1000;
+}
 
-
+.Projects-Title {
+  text-align: center;
+  color: white;
+  padding: 1em;
+}
 
 /* Footer Styling */

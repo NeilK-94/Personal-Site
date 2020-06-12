@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
-
+import { Row } from 'react-materialize'
 import Header from './components/Header'
 // import Footer from './components/Footer'
-// import Projects from './components/Projects'
+import Projects from './components/Projects'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Projects />
-      <Footer /> */}
+      <Row>
+        <Projects />
+      </Row>
+      {/* <Footer /> */}
     </div>
   );
 }
