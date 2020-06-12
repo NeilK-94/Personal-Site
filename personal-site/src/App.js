@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Row } from 'react-materialize'
 import Header from './components/Header'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 import Projects from './components/Projects'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Row>
         <Projects />
       </Row>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
