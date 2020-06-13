@@ -4,10 +4,12 @@ import { Row } from 'react-materialize'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
+// import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div className="App">
+      {/* <Navigation /> */}
       <Header />
       <Row>
         <Projects />

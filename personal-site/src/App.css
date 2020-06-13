@@ -64,7 +64,7 @@
   align-items: center;
   margin: 0 auto;
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: -20px;
   margin-top: 100vh;
   position: relative;
   z-index: 1000;
@@ -75,16 +75,16 @@
   color: white;
   padding: 1em;
 }
-/* .Projects-Card {
-
-} */
+.Projects-Card {
+  border: black;
+}
 
 /* Footer Styling */
 .Footer {
   margin-top: 0;
   padding-top: 0;
   height: 10%;
-  background-color: #3e1c8d;
+  background-color: black;
   text-align: center;
 }
 .Footer h3 {

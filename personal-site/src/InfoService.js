@@ -10,7 +10,8 @@ import example5 from "./assets/images/twitter.jpg";
 import example6 from "./assets/images/unity.jpg";
 import cv from "./assets/Software_CV.pdf";
 
-import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt } from "react-icons/fa";
+//  https://react-icons.github.io/icons?name=fa
+import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from "react-icons/fa";
 
 // Projects
 let projectItems = [
@@ -79,7 +80,7 @@ let links = [
   {
     name: "CV",
     link: cv,
-    icon: FaFileAlt
+    icon: FaFilePdf
   }
 ];
 
