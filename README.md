@@ -1,6 +1,3 @@
-  GNU nano 2.9.3                        README.md                        Modified  
-
-
 # Personal-Site
 **Neil Kyne**
 This repository contains a personal site I made very shortly after graduating college. I made it with simplicity in mind. It is a basic static web page with no routing involved. I wanted it to display projects and highlight some of my skills in web development. It also contains links to external medias such as LinkedIn as well as hosts my CV. 
