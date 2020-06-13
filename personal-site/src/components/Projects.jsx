@@ -13,7 +13,7 @@ export default class Projects extends Component {
                   return (
                       // https://materializecss.com/grid.html
                     <Col key={index} s={12} m={4} l={4} xl={4}>
-                      <Card
+                      <Card className="Projects-Card"
                         header={<CardTitle image={item.imageUrl}/>}
                         title={item.title}
                       >
