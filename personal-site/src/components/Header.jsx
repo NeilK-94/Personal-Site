@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom"
 import {
   firstName,
   lastName,
@@ -8,16 +9,23 @@ import {
   links
 } from "../InfoService";
 /* TODO:
-    1. Add links to your social media in the header.. email, linkedIn, CV and Github..? Can use an icon pack for them
     2. Add a navbar, looks weird without it. Maybe Have links in that rather than header. 
     3. Consider adding a form for a user to enter their name email and message. Forward it to your email
     4. Or failing that just an option to be contacted by me by entering their email 
-    5. Deploy.. Look into something other than heroku..
     */
 export default class Header extends Component {
     render() {
+      const headerLink = {
+        fontFamily: "Roboto Mono",
+        textEmphasis: "center",
+        position: "absolute",
+        right: "30px",
+        top: "20px"
+      
+      };
         return (
             <div className="Header">
+              <Link style={headerLink} to='/resources'>Resources</Link>
                 <div className="Header-Selfie-and-Name">
                 <img src={selfie} className="Header-Selfie" alt="selfie" />
                 <hr />

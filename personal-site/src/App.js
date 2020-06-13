@@ -1,20 +1,15 @@
 import React from 'react';
 import './App.css';
-import { Row } from 'react-materialize'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Projects from './components/Projects'
-// import Navigation from './components/Navigation';
-
+import { BrowserRouter as Router, Route } from "react-router-dom"
+import Home from './components/Home'
+import ResourcesSection from './components/ResourcesSection'
 function App() {
   return (
     <div className="App">
-      {/* <Navigation /> */}
-      <Header />
-      <Row>
-        <Projects />
-      </Row>
-      <Footer />
+      <Router>
+        <Route path="/" exact component={Home} />
+        <Route path="/resources" exact component={ResourcesSection} />
+      </Router>
     </div>
   );
 }
