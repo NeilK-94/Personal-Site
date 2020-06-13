@@ -8,6 +8,7 @@ import example3 from "./assets/code.jpeg";
 import example4 from "./assets/code.jpeg";
 import example5 from "./assets/code.jpeg";
 import example6 from "./assets/code.jpeg";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt } from "react-icons/fa";
 
 // Projects
 let projectItems = [
@@ -51,21 +52,25 @@ let bio = "I'm a recent Software Development graduate from GMIT. Feel free to ch
 
 // Links to social medias 
 let links = [
-  {
-    name: "exampleLink1",
-    link: "exampleLink1.com"
+  { 
+    name: "LinkedIn",
+    link: "exampleLink1.com",   
+    icon: FaLinkedin
   },
   {
-    name: "exampleLink2",
-    link: "exampleLink2.com"
+    name: "GitHub",
+    link: "exampleLink2.com",
+    icon: FaGithub
   },
   {
-    name: "exampleLink3",
-    link: "exampleLink3.com"
+    name: "Email",
+    link: "exampleLink3.com",
+    icon: FaEnvelope
   },
   {
-    name: "exampleLink4",
-    link: "exampleLink4.com"
+    name: "CV",
+    link: "exampleLink4.com",
+    icon: FaFileAlt
   }
 ];
 

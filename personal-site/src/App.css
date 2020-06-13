@@ -41,6 +41,19 @@
   letter-spacing: 0.08rem;
   font-weight: 500;
 }
+.Header-Links {
+  display: flex;
+  padding-top: 3em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-weight: bold;
+}
+.link-icon {
+  height: 1.3em;
+  width: 1.3em;
+  margin: 0 0.4em;
+  color: #3e1c8d;
+}
 
 /* Projects Styling */
 .Projects {

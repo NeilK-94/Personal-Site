@@ -26,13 +26,14 @@ export default class Header extends Component {
                     <h2 className="Header-Title">{title}</h2>
                   </div>
                 </div>
-                {/* Need to add all personal info to a seperate file later, make code cleaner */}
                 <p className="Header-Bio">{bio}</p>
                 <div className="Header-Links">
                   {links.map(function(item, index) {
                     return (
                       <a key={index} href={item.link}>
-                        {item.name}
+                        {
+                          <item.icon className="link-icon" />
+                        }
                       </a>
                     );
                   })}

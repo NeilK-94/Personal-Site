@@ -1,33 +1,9 @@
 import React, { Component } from 'react'
 import { Card, CardTitle, Button, Col, Row } from "react-materialize";
-
-import example1 from "../assets/code.jpeg";
-import example2 from "../assets/code.jpeg";
-import example3 from "../assets/code.jpeg";
+import { projectItems } from '../InfoService'
 
 export default class Projects extends Component {
-    render() {
-        //  Store these to a profile file along with name and bio etc. Then just import..
-        let projectItems = [
-            {
-                imageUrl: example1,
-                title: "Example One",
-                link: "#",
-                description: "Brief description"
-            },
-            {
-                imageUrl: example2,
-                title: "Example Two",
-                link: "#",
-                description: "Brief description"
-            },
-            {
-                imageUrl: example3,
-                title: "Example Three",
-                link: "#",
-                description: "Brief description"
-            }
-        ]
+    render() {        
         return (
           <div className="Projects">
             <h1 className="Projects-Title">Recent Projects</h1>
